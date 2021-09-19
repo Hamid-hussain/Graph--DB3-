@@ -1,0 +1,38 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:#2b7a78;
+  height: 100vh;
+  margin: 10px;
+}
+
+svg{
+  background-color: wheat;
+}
+
+.bar{
+  background-color: #2b7a78;
+  border-color: #2b7a78;
+  fill: #2b7a78;
+}
+
+.bar:hover{
+  fill: #17252a;
+}
+
+g{
+  color: black;
+}
+
+#tooltip {
+  margin-top: 10px;
+  color: black;
+  font-size: 28px;
+}
+
+#title {
+  font-size: 30px;
+  fill: black;
+}
